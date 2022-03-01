@@ -29,12 +29,6 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
-      
-      - name: Uninstall old
-        run: pip uninstall itsdangerous
-        
-      - name: Reinstall correct version
-        run: pip install itsdangerous==2.0.1
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
